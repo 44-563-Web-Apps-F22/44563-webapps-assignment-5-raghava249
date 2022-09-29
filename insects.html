@@ -11,6 +11,11 @@
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  <style>
+    table,th,td {
+      border:1px solid black;
+    }
+  </style>
 </head>
 <body>
     <div class="container">
@@ -57,6 +62,63 @@
       <img src="Robberfly.jpg" class="img-thumbnail" alt="image1" width="200px" height="auto">
       <img src="dragonfly.jpg" class="img-thumbnail" alt="image1" width="200px" height="auto">
     </div>
+    <caption>Insects table</caption>
+    <table class="table table-striped;table table-hover" style="border:1px solid black;border-collapse:collapse">
+      <thead>
+      <tr>
+      <th scope="col">Letter</th>
+      <th scope="col">Insect</th>
+      <th scope="col">City</th>
+      <th scope="col">River</th>
+      </tr>
+    </thead>
+      <tr>
+        <th scope="row"> V </th>
+        <td class="table-primary">Viceroy butterfly</td>
+        <td class="table-secondary">vijayawada</td>
+        <td class="table-success">Ventura River</td>
+      </tr>
+      <tr>
+        <th scope="row"> E </th>
+        <td class="table-primary">Earwig</td>
+        <td class="table-secondary">Euclid</td>
+        <td class="table-success">Econfina River</td>
+      </tr>
+      <tr>
+        <th scope="row">R</th>
+        <td class="table-primary">Robber fly</td>
+        <td class="table-secondary">Richmond</td>
+        <td class="table-success">Raccoon River</td>
+      </tr>
+      <tr>
+        <th scope="row">A</th>
+        <td class="table-primary">Ant</td>
+        <td class="table-secondary">Atlanta</td>
+        <td class="table-success">Abita River</td>
+      </tr>
+      <tr>
+        <th scope="row">G</th>
+        <td class="table-primary">Grasshopper</td>
+        <td class="table-secondary">Guntur</td>
+        <td class="table-success">Ganga River</td>
+      </tr>
+      <tr>
+        <th scope="row">D</th>
+        <td class="table-primary">Dragonfly</td>
+        <td class="table-secondary">Delhi</td>
+        <td class="table-success">Damariscotta River River</td>
+      </tr>
+</table>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="basic.html">basicpage</a></li>
+    <li><a class="dropdown-item" href="advanced.html">advancedpage</a></li>
+  </ul>
+</div>
+
 
 
 
